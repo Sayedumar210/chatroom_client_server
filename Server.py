@@ -32,7 +32,7 @@ def new_join(client,client_list):
 
 s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 
-host = 'localhost'
+host = '3.25.51.154'
 port = 43389  
 s.bind((host,port))
 
